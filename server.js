@@ -30,5 +30,5 @@ app.get('/about', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Escuchando peticiones pro el puerto ${ port }`);
+    console.log(`Escuchando peticiones por el puerto ${ port }`);
 });
